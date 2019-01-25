@@ -1,6 +1,9 @@
 html,
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 * {
@@ -19,7 +22,8 @@ body {
 }
 
 input {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   border: 1px solid #ddd;
   height: 50px;
   padding: 0 20px;
@@ -27,7 +31,8 @@ input {
 }
 
 button {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 50px;
   font-size: 14px;
   background: #069;
@@ -39,7 +44,8 @@ button {
 }
 
 .messages {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 400px;
   margin: 20px 0;
   border: 1px solid #ddd;
